@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-area{
+    background: #3b5998;
+}
+.middle-area{
+    margin: auto;
+}
+.logo-area{
+    width: 60%;
+    float:left;
+
+}
+.login-area{
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+}
+.header-area::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.login-first{
+    float: left;
+}
+.login-first label{
+    color: white;
+}
+.login-second{
+    float: left;
+}
+.login-second label{
+    color: white;
+}
+.login-submit{
+    float: left;
+    margin-top: 18px;
+    
+}
+.amader-login::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.login-area input{
+    display: block;
+    margin-right: 5px;
+}
+.logo-area a img{
+    margin-left: 80px;
+}
+.login-second a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 5px;
+    display: block;
+}
+.login-submit input{
+    color: white;
+    background:#4267b2;
+    border: 1px solid #4267b2;
+    cursor: pointer;
+}
+.login-submit input:hover{
+   background: #365899;
+   border: 1px solid #365899;
+}
+/*signup area style start from here*/
+.signup-left{
+    width: 60%;
+    float: left;
+}
+.signup-right{
+    width: 40%;
+    float: left;
+}
+.signup-area{
+    background: linear-gradient(#fff, #D4D9E8);
+}
+.signup-area::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.signup-left p{
+    color: #0E385f;
+    font-size: 20px;
+    font-weight: bold;
+    width:80%;
+}
+.signup-right h2{
+    color: #333333;
+    font-size: 35px;
+    margin-bottom: 5px;
+
+}
+.signup-right p{
+
+    color: #333333;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.signup-right input[type=text], .signup-right input[type=password]{
+    width: 100%;
+    font-size: 18px;
+    padding: 6px;
+    margin: 5px 0;
+    border-radius: 3px;
+    border: 1px solid #bdc7d8;
+    box-sizing: border-box;
+}
+.signup-right .username input:nth-child(1){
+    width: 49%;
+    float: left;
+    margin-right: 5px;
+}
+.signup-right .username input:nth-child(2){
+    width: 49%;
+    float: right;
+}
+
+.Birthday h3{
+    color: #333;
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: normal;
+}
+.bbb-option select{
+    padding: 3px;
+    font-size: 15px;
+    border: 1px solid #bdc7d8;
+}
+.Birthday::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.bbb-option{
+    float:left;
+    margin-right: 8px;
+}
+.bbb-link{
+    float: left;
+    width: 160px;
+}
+.bbb-link a{
+    color: #365899;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+.radio label{
+    color: #333;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+p.policy{
+    font-size: 11px;
+    color: #777;
+    width: 75%;
+   
+}
+p.policy a{
+    text-decoration: none;
+    color: #365899;
+    
+}
+.signup-right input[type='submit']{
+    background: linear-gradient(#67ae55, #578843);
+    padding: 10px 40px;
+    font-size: 18px;
+    color: #fff;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color:#3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup-right input[type='submit']:hover{
+    background: linear-gradient(#578843, #67ae55);
+}
+.signup-right h4{
+    color:#666;
+    font-size: 13px;
+
+}
+.signup-right h4 a{
+    text-decoration: none;
+}

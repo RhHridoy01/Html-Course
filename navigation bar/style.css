@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-menu{
+    background: #074863;
+}
+.main-menu ul{
+    margin:0;
+    list-style: none;
+    padding: 0;
+}
+.main-menu ul li{
+    float: left;
+    position: relative;
+}
+.main-menu ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-menu ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+.main-menu ul li a:hover{
+     background: orange;
+     color: red;
+}
+/*drop down menu design*/
+.main-menu ul ul li{
+    float: none;
+}
+.main-menu ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background:#074863 ;
+    width: 310px;
+    display: none;
+}
+.main-menu ul li:hover > ul{
+    display: block;
+}
+.main-menu ul ul ul{
+    background: #074863 ;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}

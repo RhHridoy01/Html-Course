@@ -1,0 +1,60 @@
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.amader-from{
+    width: 600px;
+    background: rgba(0, 0, 0, .4);
+    margin:100px auto;
+    padding: 20px;
+    color: aliceblue;
+    border: 1px solid red;
+    
+ 
+}
+.amader-from input{
+    display: block;
+    width: 300px;
+  
+    
+}
+.amader-from label{
+    cursor: pointer;
+    padding: 5px 0;
+    display: block;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.amader-from input[type=submit]{
+    width: 100px;
+    margin-top: 10px;
+
+}
+.amader-from input[type=submit]:hover{
+    color: blue;
+}
+.amader-from p a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.amader-from p a:hover{
+    color: brown;
+}
+.amader-from p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.amader-from button{
+    margin-top: 10px;
+}
+.amader-from button a{
+    text-decoration: none;
+}
+.amader-from button:hover{
+   background-color: blue;
+   color: white;
+}
